@@ -1,3 +1,6 @@
 //Get records from json
 curl -X GET -H "Content-Type: application/json" "http://localhost:3000/addressBook"
 curl -X GET -H "Content-Type: application/json" "http://localhost:3000/addressBook/2"
+
+//Post record to json
+curl -X POST -H "Content-Type: application/json" -d'{"FirstName": "Ramya", "LastName": "Behra", "Address": "Tirupati", "City": "Chittor", "State": "Andhra", "PhoneNumber": 6789012345, "Email": "ramya@email.com"}' "http://localhost:3000/addressBook"
