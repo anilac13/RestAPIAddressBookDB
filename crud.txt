@@ -1,3 +1,5 @@
+//Using system routes
+
 //Get records from json
 curl -X GET -H "Content-Type: application/json" "http://localhost:3000/addressBook"
 curl -X GET -H "Content-Type: application/json" "http://localhost:3000/addressBook/2"
@@ -10,3 +12,18 @@ curl -X PUT -H "Content-Type: application/json" -d'{"FirstName": "Kaveri", "Last
 
 //Delete record from json
 curl -X DELETE -H "Content-Type: application/json" "http://localhost:3000/addressBook/5"
+
+//Using Custom routes
+
+//Get records from json
+curl -X GET -H "Content-Type: application/json" "http://localhost:4000/addressBook"
+curl -X GET -H "Content-Type: application/json" "http://localhost:4000/addressBook/get/2"
+
+//Post record to json
+curl -X POST -H "Content-Type: application/json" -d'{"FirstName": "Ramya", "LastName": "Behra", "Address": "Tirupati", "City": "Chittor", "State": "Andhra", "PhoneNumber": 6789012345, "Email": "ramya@email.com"}' "http://localhost:4000/addressBook/create"
+
+//Put(Update) record
+curl -X PUT -H "Content-Type: application/json" -d'{"FirstName": "Kaveri", "LastName": "Nadi", "Address": "Karnataka", "City": "Karnataka", "State": "Karnataka", "PhoneNumber": 6789021345, "Email": "kaveri@email.com"}' "http://localhost:4000/addressBook/update/5"
+
+//Delete record from json
+curl -X DELETE -H "Content-Type: application/json" "http://localhost:4000/addressBook/delete/5"
