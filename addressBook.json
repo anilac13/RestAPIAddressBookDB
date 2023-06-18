@@ -1,0 +1,34 @@
+{
+  "addressBook": [
+    {
+      "Id": 1,
+      "FirstName": "Ravana",
+      "LastName": "Rana",
+      "Address": "Bangalore",
+      "City": "Bengaluru",
+      "State": "Karnataka",
+      "PhoneNumber": 8901234567,
+      "Email": "ravan@email.com"
+    },
+    {
+      "Id": 2,
+      "FirstName": "Soma",
+      "LastName": "Shekar",
+      "Address": "Marathalli",
+      "City": "Bengaluru",
+      "State": "Karnataka",
+      "PhoneNumber": 9801234567,
+      "Email": "soma@email.com"
+    },
+    {
+      "Id": 3,
+      "FirstName": "Bheem",
+      "LastName": "Kumar",
+      "Address": "Yelahanka",
+      "City": "Bengaluru",
+      "State": "Karnataka",
+      "PhoneNumber": 7012345896,
+      "Email": "bheem@email.com"
+    }
+  ]
+}
