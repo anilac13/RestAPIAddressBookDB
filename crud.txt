@@ -4,3 +4,7 @@ curl -X GET -H "Content-Type: application/json" "http://localhost:3000/addressBo
 
 //Post record to json
 curl -X POST -H "Content-Type: application/json" -d'{"FirstName": "Ramya", "LastName": "Behra", "Address": "Tirupati", "City": "Chittor", "State": "Andhra", "PhoneNumber": 6789012345, "Email": "ramya@email.com"}' "http://localhost:3000/addressBook"
+
+//Put(Update) record
+curl -X PUT -H "Content-Type: application/json" -d'{"FirstName": "Kaveri", "LastName": "Nadi", "Address": "Karnataka", "City": "Karnataka", "State": "Karnataka", "PhoneNumber": 6789021345, "Email": "kaveri@email.com"}' "http://localhost:3000/addressBook/5"
+
