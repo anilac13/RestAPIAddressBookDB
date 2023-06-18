@@ -8,3 +8,5 @@ curl -X POST -H "Content-Type: application/json" -d'{"FirstName": "Ramya", "Last
 //Put(Update) record
 curl -X PUT -H "Content-Type: application/json" -d'{"FirstName": "Kaveri", "LastName": "Nadi", "Address": "Karnataka", "City": "Karnataka", "State": "Karnataka", "PhoneNumber": 6789021345, "Email": "kaveri@email.com"}' "http://localhost:3000/addressBook/5"
 
+//Delete record from json
+curl -X DELETE -H "Content-Type: application/json" "http://localhost:3000/addressBook/5"

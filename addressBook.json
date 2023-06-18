@@ -39,16 +39,6 @@
       "PhoneNumber": 6789012345,
       "Email": "ramya@email.com",
       "id": 4
-    },
-    {
-      "FirstName": "Kaveri",
-      "LastName": "Nadi",
-      "Address": "Karnataka",
-      "City": "Karnataka",
-      "State": "Karnataka",
-      "PhoneNumber": 6789021345,
-      "Email": "kaveri@email.com",
-      "id": 5
     }
   ]
 }
